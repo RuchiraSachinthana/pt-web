@@ -20,7 +20,7 @@ section{
     height: 95vh;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("/img/bg-hero.jpg") ;
+    background-image: url("./img/bg-hero.jpg") ;
 }
 
 nav{
@@ -50,4 +50,59 @@ nav ul li a{
     color: rgba(12, 8, 8, 0.993);
     font: size 22px;
    
+}
+
+.active{
+    font-weight: 800;
+    color: #2d2a2a;
+
+}
+
+.text-m-box p:nth-child(1){
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+
+.text-m-box p:nth-child(2){
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #1a1a1a;
+    font-size: 60px;
+}
+
+.text-m-box p:nth-child(3){
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #403e3e;
+    font-size:30px;
+    line-height:30px;
+
+}
+
+.text-m-box p{
+    line-height:0px;
+    margin: 45px 0px 25px;
+
+}
+
+.text-m-box{
+
+    position:absolute;
+    left: 13%;
+    top:42%;
+    transform:translate(-13%,-42%);
+}
+
+.text-m-box button{
+    width:140px;
+    height:45px;
+    border-radius:8px;
+    font-family:Arial ;
+    cursor: pointer;
+
+
 }
