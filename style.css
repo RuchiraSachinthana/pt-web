@@ -796,11 +796,72 @@ box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     font-size:40px;
 }
 
+.cnt-container h3{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:20px;
+}
+
 .input-row{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #cccccc;
+    outline: none;
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+textarea{
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    outline: none;
+    padding-bottom: 10px;
+    box-sizing: border-box ;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+label{
+    margin-bottom: 8px;
+    display: block;
+    color: #131212 ;
+    font-family: Arial;
+}
+
+.cnt-container button{
+    width:140px;
+    height:45px;
+    border-radius:8px;
+    font-family:Arial ;
+    cursor: pointer;
+    border:2px solid #373636;
+    background-color:#302f2f;
+    color:white;
+    margin:10px 0px;
+}
+
+.cnt-container button:hover{
+    background-color:#373636;
+    color:rgb(255, 255, 255);
     
+}
+
+tr td:first-child {
+    padding-top: 20px;
 
 }
 
+tr td{
+    padding-top:20px;
+}
