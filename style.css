@@ -824,7 +824,7 @@ input{
 
 textarea{
     width: 100%;
-    border-bottom: 1px solid #cccccc;
+    border: 1px solid #cccccc;
     outline: none;
     padding-bottom: 10px;
     box-sizing: border-box ;
@@ -858,10 +858,12 @@ label{
 }
 
 tr td:first-child {
-    padding-top: 20px;
+    padding-top: 30px;
+    font-family:Arial ;
 
 }
 
 tr td{
-    padding-top:20px;
+    padding-top:30px;
+    font-family:Arial ;
 }
